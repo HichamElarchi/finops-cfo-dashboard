@@ -1,0 +1,5 @@
+.env
+.vercel
+.env*
+venv/
+package-lock.json
