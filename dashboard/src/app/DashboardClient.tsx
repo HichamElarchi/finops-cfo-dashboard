@@ -236,9 +236,6 @@ export default function DashboardClient() {
             {totals.cacheHits.toLocaleString()} reused answers · {formatUsd(totals.cacheSavings)} saved ·{" "}
             {totals.cacheTokens.toLocaleString()} tokens not sent to an LLM
           </p>
-          <p className="mt-1 text-xs text-muted-foreground">
-            Matching questions in this workspace are answered from Supabase for 30 days, without a model call.
-          </p>
         </section>
 
         <UsageTable
